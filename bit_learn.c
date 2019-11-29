@@ -11,6 +11,7 @@ int main (void){
     
 	x=deg_l;
 	x+=deg_h<<8;
+	
 	printf("x=%d\n",x);
 	sprintf(PC_txdata,"%d",x);
 	printf("%s\n",PC_txdata);
